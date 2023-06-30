@@ -127,9 +127,9 @@ header .icons i,
 header .icons a{
     cursor: pointer;
     margin-left: .5rem;
-    height: 4rem;
-    line-height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    line-height: 3rem;
+    width: 3rem;
     text-align: center;
     font-size: 1.5rem;
     color:rgb(95, 35, 0);
@@ -476,6 +476,7 @@ header .icons #menu-bars{
     box-shadow: var(--BORDER-COLOR) ;
     border-radius: .5rem;
     position: relative;
+    overflow: hidden;
 
 
 }
@@ -701,6 +702,12 @@ header .icons #menu-bars{
         }
 
         .order form .inputBox .input{
+            width: 50%;
+        }
+        .review .slide{
+            width: 50%;
+        }
+        .footer .box-container{
             width: 50%;
         }
     
